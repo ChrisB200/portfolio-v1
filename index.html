@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=REM:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <title>Christopher Bonner - Portfolio</title>
+  </head>
+  <body>
+      <script src="index.js" async defer></script>
+      <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+      <!-- particles.js container --> 
+      <div id="particles-js"></div>
+      <div class="content">
+        <header>
+          <nav>
+            <div>
+              <img onclick="redirectToPage('https://www.linkedin.com/in/christopher-bonner-293287256/')" class="socials" alt="Linkedin Icon" src="images/icons/linkedin.svg">
+              <img onclick="redirectToPage('https://github.com/ChrisB200')" class="socials" alt="GitHub Icon" src="images/icons/github.svg">
+            </div>
+            <div class="items">
+              <ul id="menu-items">
+                <li onclick="goToArea('about-me-section')"><a href="#">About</a></li>
+                <li onclick="goToArea('technologies-section')"><a href="#">Technologies</a></li>
+                <li onclick="goToArea('projects-section')"><a href="#">Projects</a></li>
+                <li onclick="goToArea('contact-me-section')"><a href="#">Contact</a></li>
+                <li><button>CV</button></li>
+              </ul>
+              <img src="images/icons/dropdown.png" id="menu-button">
+            </div>
+          </nav>
+        </header>
+        <main>
+          <section id="overview-me-section">
+            <div class="overview-me">
+              <div class="text-div">
+                <div>
+                  <p class="overview-body-text">Hi, I'm</p>
+                  <h1>Christopher Bonner</h1>
+                </div>
+                <div>
+                  <p class="overview-body-text">
+                    Hello, I'm a student at the Matthew Boulton Campus, currently working towards a Level 3 Extended Diploma in Programming and Cybersecurity.
+                  </p>
+                  <p class="overview-body-text">
+                    I have a genuine interest in <span>programming</span> because it allows me to solve problems and bring ideas to life. Whether it's developing websites, software, or delving into cybersecurity.
+                  </p>
+                  <p class="overview-body-text">
+                    My main goal is to become a proficient software developer and contribute meaningfully to the tech industry.
+                  </p>
+                </div>
+                <button onclick="goToArea('contact-me-section')" class="get-in-touch-button">Get In Touch</button>
+              </div>
+              <div class="image-div">
+                <div class="me-image-container">
+                  <img class="me-image" alt="Picture of Christopher" src="images/me.jpg">
+                </div>
+              </div>
+            </div>
+          </section>
+          <section id="about-me-section">
+            <div class="technologies-title">
+              <div class="dash-line"></div>
+              <h1>More About Me</h1>
+            </div>
+          </section>
+
+          <section id="technologies-section">
+            <div class="technologies-title">
+              <div class="dash-line"></div>
+              <h1>Technologies</h1>
+            </div>
+            <div class="technologies-area">
+              <p class="area-title">Programming languages</p>
+              <div class="specific-technologies">
+                <div class="area-technology">
+                  <p>Python</p>
+                  <img alt="python logo" src="images/logos/python-logo.png">
+                </div>
+                <div class="area-technology">
+                  <p>C#</p>
+                  <img alt="c# logo" src="images/logos/csharp-logo.png">
+                </div>
+                <div class="area-technology">
+                  <p>Visual Basic</p>
+                  <img alt="visual basic logo" src="images/logos/visualbasic-logo.png">
+                </div>
+                <div class="area-technology">
+                  <p>HTML</p>
+                  <img alt="html logo" src="images/logos/html-logo.png">
+                </div>
+                <div class="area-technology">
+                  <p>CSS</p>
+                  <img alt="css logo" src="images/logos/css-logo.png">
+                </div>
+                <div class="area-technology">
+                  <p>JavaScript</p>
+                  <img alt="javascript logo" src="images/logos/javascript-logo.png">
+                </div>
+              </div>
+            </div>
+            <div class="technologies-area">
+              <p class="area-title">Frameworks</p>
+              <div class="specific-technologies">
+                <div class="area-technology">
+                  <p>Flask</p>
+                  <img alt="flask logo" src="images/logos/flask-logo.png">
+                </div>
+                <div class="area-technology">
+                  <p>React JS</p>
+                  <img alt="React JS logo" src="images/logos/react-logo.png">
+                </div>
+                <div class="area-technology">
+                  <p>MySQL (Python)</p>
+                  <img alt="mysql logo" src="images/logos/mysql-logo.png">
+                </div>
+              </div>
+            </div>
+            <div class="technologies-area">
+              <p class="area-title">Cloud Services</p>
+              <div class="specific-technologies">
+                <div class="area-technology">
+                  <p>AWS RDS</p>
+                  <img alt="AWS RDS logo" src="images/logos/aws-rds-logo.png">
+                </div>
+                <div class="area-technology">
+                  <p>AWS S3</p>
+                  <img alt="AWS S3 logo" src="images/logos/s3-logo.png">
+                </div>
+                <div class="area-technology">
+                  <p>AWS Elastic Beanstalk</p>
+                  <img alt="AWS Elastic Beanstalk logo" src="images/logos/eb-logo.png">
+                </div>
+              </div>
+            </div>
+          </section>
+          <section id="projects-section">
+            <div class="technologies-title">
+              <div class="dash-line"></div>
+              <h1>Projects</h1>
+            </div>
+            <div class="projects">
+              <div class="project">
+                <div class="project-preview">
+                  <div class="project-image-container">
+                    <p>No preview currently available at the moment</p>
+                  </div>
+                </div>
+                <div class="project-details">
+                  <div class="project-overview">
+                    <p class="project-title">Finance Manager</p>
+                    <p>I have created a website dashboard that let me scan my payslips and calculate how much i will get paid, when i got paid, and track the last times i got paid</p>
+                  </div>
+                  <div class="project-technologies">
+                    <div class="project-technology-container">
+                      <img src="images/logos/python-logo.png" alt="" class="project-technology-image">
+                    </div>
+                    <div class="project-technology-container">
+                      <img src="images/logos/html-logo.png" alt="" class="project-technology-image">
+                    </div>
+                    <div class="project-technology-container">
+                      <img src="images/logos/css-logo.png" alt="" class="project-technology-image">
+                    </div>
+                    <div class="project-technology-container">
+                      <img src="images/logos/javascript-logo.png" alt="" class="project-technology-image">
+                    </div>
+                    <div class="project-technology-container">
+                      <img src="images/logos/flask-logo.png" alt="" class="project-technology-image">
+                    </div>
+                    <div class="project-technology-container">
+                      <img src="images/logos/mysql-logo.png" alt="" class="project-technology-image">
+                    </div>
+                    <div class="project-technology-container">
+                      <img src="images/logos/aws-rds-logo.png" alt="" class="project-technology-image">
+                    </div>
+                    <div class="project-technology-container">
+                      <img src="images/logos/eb-logo.png" alt="" class="project-technology-image">
+                    </div>
+                    <div class="project-technology-container">
+                      <img src="images/logos/s3-logo.png" alt="" class="project-technology-image">
+                    </div>
+                  </div>
+                  <button class="see-more">See more</button>
+                </div>
+              </div>
+              <div class="project">
+                <div class="project-preview">
+                  <div class="project-image-container">
+                    <p>No preview currently available at the moment</p>
+                  </div>
+                </div>
+                <div class="project-details">
+                  <div class="project-overview">
+                    <p class="project-title">Student Job Searcher</p>
+                    <p>I have created a website that allows students to quickly search for jobs near them that meets their, and the employers, requirements</p>
+                  </div>
+                  <div class="project-technologies">
+                    <div class="project-technology-container">
+                      <img src="images/logos/python-logo.png" alt="" class="project-technology-image">
+                    </div>
+                    <div class="project-technology-container">
+                      <img src="images/logos/html-logo.png" alt="" class="project-technology-image">
+                    </div>
+                    <div class="project-technology-container">
+                      <img src="images/logos/css-logo.png" alt="" class="project-technology-image">
+                    </div>
+                    <div class="project-technology-container">
+                      <img src="images/logos/javascript-logo.png" alt="" class="project-technology-image">
+                    </div>
+                    <div class="project-technology-container">
+                      <img src="images/logos/flask-logo.png" alt="" class="project-technology-image">
+                    </div>
+                    <div class="project-technology-container">
+                      <img src="images/logos/mysql-logo.png" alt="" class="project-technology-image">
+                    </div>
+                    <div class="project-technology-container">
+                      <img src="images/logos/aws-rds-logo.png" alt="" class="project-technology-image">
+                    </div>
+                  </div>
+                  <button class="see-more">See more</button>
+                </div>
+              </div>
+            </div>
+          </section>
+          <section id="contact-me-section">
+            <div class="technologies-title">
+              <div class="dash-line"></div>
+              <h1>Contact Me</h1>
+            </div>
+            <form method="post" action="https://formsubmit.io/send/christopher.bonner@outlook.com">
+              <div class="names">
+                <div class="form-group">
+                  <label for="first-name">First Name</label>
+                  <input required type="text" class="form-control" id="first-name" name="first-name">
+                </div>
+                <div class="form-group">
+                  <label for="surname">Surname</label>
+                  <input type="text" class="form-control" id="surname" name="surname">
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="email">Email</label>
+                <input required type="email" class="form-control" id="email" name="email">
+              </div>
+              <div class="form-group">
+                <label for="message">Message</label>
+                <textarea required rows="10" class="form-control" id="message" name="message"></textarea>
+              </div>
+              <button onclick="confirmSent()"type="submit" class="submit-button">Submit</button>
+            </form>
+          </section>
+        </main>
+      </div>
+      <footer>
+        <div class="footer-socials">
+          <div  onclick="redirectToPage('https://github.com/ChrisB200')"class="footer-social">
+            <div class="socials-container">
+              <img class="icons" src="images/icons/github.svg">
+            </div>
+            <p>Github</p>
+          </div>
+          <div onclick="redirectToPage('https://www.linkedin.com/in/christopher-bonner-293287256/')" class="footer-social">
+            <div class="socials-container">
+              <img class="icons" src="images/icons/linkedin.svg">
+            </div>            
+            <p>Linkedin</p>
+          </div>
+          <div class="footer-social">
+            <div class="socials-container">
+              <img class="icons" src="images/icons/email-icon.png">
+            </div>
+            <p>christopher.bonner@outlook.com</p>
+          </div>
+        </div>
+        <div class="links">
+          <ul>
+            <li onclick="goToArea('about-me-section')"><a href="#">About</a></li>
+            <li onclick="goToArea('technologies-section')"><a href="#">Technologies</a></li>
+            <li onclick="goToArea('projects-section')"><a href="#">Projects</a></li>
+            <li onclick="goToArea('contact-me-section')"><a href="#">Contact</a></li>
+          </ul>    
+        </div>
+      </footer>
+  </body>
+</html>
